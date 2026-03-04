@@ -1,0 +1,689 @@
+{
+  "00bc4292366a7deeca129ab4d302eb01": {
+    "translation": "装饰器是Python中的强大功能。"
+  },
+  "01d2d232615182380010ada659a01c7d": {
+    "translation": "使用给定的分隔符将字符串划分为三部分。\n\n这将在字符串中搜索分隔符，从末尾开始。如果\n找到分隔符后，返回一个3元组，其中包含元素之前的部分\n分离器，分离器本身，以及它后面的部分。\n\n如果没有找到分隔符，则返回一个包含两个空字符串的3元组\n和原始字符串。"
+  },
+  "0376ee93e00b52b7dad66c3ecc6f0e61": {
+    "translation": "将两个集合的对称差作为一个新集合返回。\n\n（即恰好在其中一个集合中的所有元素。）"
+  },
+  "0392175cee25c19fc97f3e489b4915d6": {
+    "translation": "返回值%的自我。"
+  },
+  "04bbdfa2c808fa9cc06ca0a2b7d47383": {
+    "translation": "/ /返回值自我。"
+  },
+  "04dc3a4748182f9dcc90de44da9a86b8": {
+    "translation": "abs(自我)"
+  },
+  "05598e1faa5bc004d4ac7a4c9da5048d": {
+    "translation": "返回自我| =值。"
+  },
+  "0657dec10ee3bb1b14ac2f881ab8978a": {
+    "translation": "返回自我*值。"
+  },
+  "09f69bf58e11b87920bcb92024003a11": {
+    "translation": "返回pow（self, value, mod）。"
+  },
+  "0a68dea8f44c2c52abba5d249efa1236": {
+    "translation": "一千英里的旅程始于一步。"
+  },
+  "0ade7a74cf93ec3b54d68a937180cba6": {
+    "translation": "返回最接近x的积分，将一半四舍五入到偶数。\n\n当传入参数时，工作方式类似于内置round（x, ndigits）。"
+  },
+  "0cf3286d0ce37c49f806a5d98398350c": {
+    "translation": "返回字符串的副本，删除末尾的空格。\n\n如果给出了chars而不是None，则删除chars中的字符。"
+  },
+  "0e2eafd2d0e21283f2559e6a85d3cb06": {
+    "translation": "返回一个可用于str.translate（）的翻译表。\n\n如果只有一个参数，它必须是一个映射Unicode的字典\n序号（整数）或字符转换为Unicode序号、字符串或None。\n然后将字符键转换为序号。\n如果有两个参数，它们必须是长度相等的字符串，并且\n在生成的字典中，x中的每个字符将被映射到\n字符在y中的相同位置。如果有第三个参数，它\n必须为字符串，其字符将在结果中映射为None。"
+  },
+  "1257ab479e988a580ad8dba054933c80": {
+    "translation": "S.__sizeof__() -> S在内存中的大小，以字节为单位"
+  },
+  "12cfad2fe3012e3b73784314ca797e29": {
+    "translation": "将self[key]设置为value。"
+  },
+  "15300c4e25f8650469d72131a1eb1467": {
+    "translation": "返回一对整数，其比率等于原始int。\n\n这个比率是最小的，分母是正的。\n\n> > > (10) .as_integer_ratio ()\n(10, 1)\n> > > (-10) .as_integer_ratio ()\n(-10, 1)\n> > > (0) .as_integer_ratio ()\n(0, 1)"
+  },
+  "17ff11d2e7ff1bfe1381602b141993ba": {
+    "translation": "D.clear() ->无。从D中移除所有项目。"
+  },
+  "1afc403e0975cb93802df1de393de7fc": {
+    "translation": "使用给定的分隔符将字符串划分为三部分。\n\n这将在字符串中搜索分隔符。如果找到分隔符，\n返回一个3元组，包含分隔符之前的部分，即分隔符\n它本身和它之后的部分。\n\n如果未找到分隔符，则返回包含原始字符串的3元组\n还有两个空字符串。"
+  },
+  "1bd8a2667cb600a5da7cc0e346e91cb8": {
+    "translation": "为类型专门的__dir__实现。"
+  },
+  "1ca52afa9d9f01bb9bafec99fef247a8": {
+    "translation": "从集合中移除一个元素；它必须是一个成员。\n\n如果元素不是成员，则引发KeyError。"
+  },
+  "1ea69bd6c906b014b0e4329788234bf3": {
+    "translation": "这是用于测试语言检测的英文文本。"
+  },
+  "1f6d91282746b41c53b551482f9486ab": {
+    "translation": "如果字典具有指定的键，则为True，否则为False。"
+  },
+  "1f8da8388695711bc1ec35a1595a9fe5": {
+    "translation": "内置可变序列。\n\n如果没有给出参数，构造函数将创建一个新的空列表。\n如果指定了参数，则参数必须为可迭代对象。"
+  },
+  "20fce77f71fb52ebf7be55b07b217a70": {
+    "translation": "如果字符串是十进制字符串，则返回True ，否则返回False。\n\n字符串是十进制字符串，如果字符串中的所有字符都是十进制且\n字符串中至少有一个字符。"
+  },
+  "220ced552d22a590f9f53e4c44b382bc": {
+    "translation": "返回一个str，如果给定的前缀字符串存在，则删除该字符串。\n\n如果字符串以前缀string开头，则返回string[len(prefix):]。\n否则，返回原始字符串的副本。"
+  },
+  "23974b6fbac416b10d5eb212ca37156b": {
+    "translation": "熟能生巧。"
+  },
+  "2481495cb79dde3d717a8c1b1fdbc674": {
+    "translation": "返回两个集合的交集作为一个新集合。\n\n（即两个集合中的所有元素。）"
+  },
+  "24f7eaef60d3659947749a6e15f59885": {
+    "translation": "返回一个直接子类的列表。"
+  },
+  "25a2ddbd772e6ea52cf32aa4647e4108": {
+    "translation": "返回format_spec所描述的字符串的格式化版本。"
+  },
+  "262effc8a63dc1bc0cce48f2db4fb460": {
+    "translation": "最小项有理数的分母"
+  },
+  "26485b85693c4329e148d3db7d4c5157": {
+    "translation": "您好"
+  },
+  "26995317d73387b929422ec27c104f3b": {
+    "translation": "如果字符串是可打印的返回True，否则返回False。\n\n如果字符串中的所有字符都被认为是可打印的，则该字符串是可打印的\nRepr（）或如果它为空。"
+  },
+  "29574d53288c0ab634a4f086a06294ad": {
+    "translation": "返回删除前导空格的字符串副本。\n\n如果给出了chars而不是None，则删除chars中的字符。"
+  },
+  "2960946f0e69dbb3fbc53978acdceb7c": {
+    "translation": "删除并返回索引处的项（默认最后）。\n\n如果列表为空或索引超出范围，则引发IndexError。"
+  },
+  "2ad6d7329d206beaa1119e3cb7c053ec": {
+    "translation": "创建一个新的字典，其中键来自iterable，值设置为value。"
+  },
+  "2c2061d3600cfb53fdc9b31a39307758": {
+    "translation": "在索引之前插入对象。"
+  },
+  "2d3d3f0a50bd4dcaeb5566fdc0b225a1": {
+    "translation": "删除自我(例子)。"
+  },
+  "2d83ee790630c8671bbcfcfef8af5887": {
+    "translation": "返回字符串中子字符串的列表，使用sep作为分隔字符串。\n\n9月\n用于分割字符串的分隔符。\n\n当设置为None（默认值）时，将对任何空白进行分割\n字符（包括\\n \\r \\t \\f和空格）并将被丢弃\n结果中的空字符串。\n最大拆分\n最大分割数。\n-1（默认值）表示没有限制。\n\n分弦从弦的前端开始，一直到弦的末端。\n\n请注意，str.split（）主要用于有意保存的数据\n带分隔符的数据。对于包含标点符号的自然文本，请考虑使用\n正则表达式模块。"
+  },
+  "2d9645f7b3b0c962a7cd356d7fb86a1a": {
+    "translation": "反向*到位*。"
+  },
+  "2e42353c127d4a354d665055cca918d5": {
+    "translation": "整数四舍五入返回其本身。\n\n使用ndigits参数进行舍入也会返回一个整数。"
+  },
+  "2e4a1dff25d8045e112433e8c162ef1c": {
+    "translation": "移除并返回任意集合元素。\n如果集合为空则引发KeyError。"
+  },
+  "2f6b4b22736d665b9f0b76387a572ac8": {
+    "translation": "返回self值。"
+  },
+  "318270186a41c5f6cafbf9b0c73c356e": {
+    "translation": "世界，您好！"
+  },
+  "32a17587fe8deea29270ee33b06857e3": {
+    "translation": "返回长度为width的居中字符串。\n\n填充使用指定的填充字符（默认为空格）完成。"
+  },
+  "33fbd23d418901a689c22a715d46a2f6": {
+    "translation": "返回类型对象的内存消耗。"
+  },
+  "360b8e33e9119a99237b8cf598a79197": {
+    "translation": "返回列表的浅拷贝。"
+  },
+  "38a6a606496f899cd7bb833834de3938": {
+    "translation": "默认dir（）实现。"
+  },
+  "3a2c5e660b56aa3558ef9abe4487619e": {
+    "translation": "返回浮点数的十六进制表示形式。\n\n> > > (-0.1) .hex ()\n'-0x1.999999999999ap-4'\n> > > 3.14159.hex ()\n'0x1.921f9f01b866ep+1'"
+  },
+  "3ab2ac33afa4c648c416a18486f18b51": {
+    "translation": "浮动(自我)"
+  },
+  "3b37b1c3bc3a640e9ede7e9524344f30": {
+    "translation": "如果key在字典中，则返回key的值，否则为默认值。"
+  },
+  "3c0258e4cec6b98b8b648f57e5350e1f": {
+    "translation": "__ PREPARE __ () - > DICT\n用于为class语句创建命名空间"
+  },
+  "3c2357c9708d7a4c26e37eb6ff790472": {
+    "translation": "S.rindex(sub[, start[, end]]\n\n返回S中找到子字符串sub的最高索引，\n这样sub就包含在S[start:end]中。可选\n参数start和end被解释为片表示法。\n\n当未找到子字符串时引发ValueError。"
+  },
+  "3d638943a48ae673c5ce4181e9b86e70": {
+    "translation": "返回自我/ /值。"
+  },
+  "3dd422c2881c1f3b3e752f5a7e91b006": {
+    "translation": "如果浮点数是整数则返回True。"
+  },
+  "3e56d35c8e42bf48154c4aa1c5ea2b1d": {
+    "translation": "返回字符串的大写版本。\n\n更具体地说，使第一个字符大写，其余字符小写\n的情况。"
+  },
+  "3e96d6ca293b35e60129c5a23279e33e": {
+    "translation": "返回字符串在内存中的大小，以字节为单位。"
+  },
+  "3f3ca57d060169c8d34891d58c7b1504": {
+    "translation": "返回两个或多个集合的差值作为新集合。\n\n（即所有元素都在这个集合中，但不包括其他元素。）"
+  },
+  "3fb1d19049470d3f7453ba5b3372d0df": {
+    "translation": "This is a passage of text that is used to test the same judgment function of the language."
+  },
+  "413ed75adac73fe853c78013fc6b60ec": {
+    "translation": "铺地板一个积分返回自己。"
+  },
+  "41d8bf705bd2de1cdad5ec1d09e19051": {
+    "translation": "自我"
+  },
+  "420f89eacb36af254f5276c6dae55a73": {
+    "translation": "连接任意数量的字符串。\n\n方法被调用的字符串被插入到每个给定字符串之间。\n结果作为一个新字符串返回。\n\n例如:“。”。Join (['ab', 'pq', 'rs']) -> ‘ab.pq.rs’"
+  },
+  "423d723bbbb31037945688ce33271d68": {
+    "translation": "True if self else False"
+  },
+  "440de7a893db3084bd9f4c870f3b0b73": {
+    "translation": "从十六进制字符串创建浮点数。\n\n&gt；&gt；&gt；flat.from十六进制(‘0x1.ffffp10’)\n2047.984375\n&gt；&gt；&gt；flat.from hex(‘-0x1p-1074’)\n5 e - 324"
+  },
+  "45f968635de9ddbf8e88024efb4a6ce3": {
+    "translation": "S.count(sub[， start[， end]]) -> int\n\n返回子字符串subin非重叠出现的次数\n字符串(开始:结束)。可选参数start和end分别为\n解释为切片表示法。"
+  },
+  "46a4b50b2fccbd6a7a8233914228437f": {
+    "translation": "检查一个类是否为子类。"
+  },
+  "46f3a8ed6d6e851d0c4272d929134d4f": {
+    "translation": "返回自我(例子)。"
+  },
+  "48739f0f0bcb14f6ed40dc7976816ec9": {
+    "translation": "返回len(自我)。"
+  },
+  "48c003ae5f91e10536fbe78ed05a7fa1": {
+    "translation": "如果字符串是数字字符串则返回True，否则返回False。\n\n如果字符串中的所有字符都是数字并且有at，则该字符串为数字\n字符串中至少有一个字符。"
+  },
+  "48cbde29bf836f4c15d4c67baf0d7669": {
+    "translation": "Type (object) ->对象的类型\nType (name, bases, dict, **kwds) ->一个新类型"
+  },
+  "499d8b771c559d8a2ded6964b0608da2": {
+    "translation": "敏捷的棕色狐狸跳过懒狗。"
+  },
+  "4aca5737cfdcbd73f03ce43528b36836": {
+    "translation": "返回转换为小写的字符串副本。"
+  },
+  "4c624e296a69466d3b33ef59c10fc409": {
+    "translation": "Set() ->新的空集合对象\nSet (iterable) ->新的集合对象\n\n构建唯一元素的无序集合。"
+  },
+  "4cfad0819a90414ca8ff910ceeae560b": {
+    "translation": "从这个集合中删除另一个集合的所有元素。"
+  },
+  "4f46bb1290ca86097a2ffdcf02f488db": {
+    "translation": "返回适合无大小写比较的字符串版本。"
+  },
+  "52cbb5899d26e36dee54e80999afc293": {
+    "translation": "返回0到x之间最接近x的积分。"
+  },
+  "544dee7c7dc7a24c0c921f4188f73851": {
+    "translation": "S.format_map（映射）-> str\n\n返回S的格式化版本，使用来自映射的替换。\n替换由大括号（‘{’和‘}’）标识。"
+  },
+  "556cb1be7aaa49dee1b6479195f13f0f": {
+    "translation": "返回divmod（value, self）。"
+  },
+  "57d20cb7673f29a42023c97b3de1be87": {
+    "translation": "删除并返回一个（键，值）对作为一个二元组。\n\n对按后进先出（LIFO）顺序返回。\n如果字典为空则引发KeyError。"
+  },
+  "59bd2767bc240cc9852d3f0f956be565": {
+    "translation": "D.values() ->一个提供D值视图的对象"
+  },
+  "5a313600999fde0209cd74f7ef3c939d": {
+    "translation": "初始化的自我。请参阅帮助（类型（自我））以获得准确的签名。"
+  },
+  "5c9fd712e88f94b48718e137643b79a0": {
+    "translation": "D.items() ->一个类似集合的对象，提供D.items的视图"
+  },
+  "5d80f7a68115a6782e93f37287e02ae4": {
+    "translation": "对列表按升序排序并返回None。\n\n排序是原位的（即列表本身被修改）和稳定的(即\n保持两个相等元素的顺序)。\n\n如果给定了键函数，则对每个列表项应用一次并对它们进行排序；\n根据它们的函数值升序或降序。\n\n反向标志可以设置为按降序排序。"
+  },
+  "5ea36c378a38555097c906c0b4f97a4f": {
+    "translation": "x.__contains__(y) <==> y in x。"
+  },
+  "60b418b0a256218dbfd43121e34d5085": {
+    "translation": "从列表中删除所有项目。"
+  },
+  "6114e1277ff5510949c7240073736c01": {
+    "translation": "Dict() ->新空字典\nDict (mapping) ->从映射对象初始化的新字典\n（键，值）对\nDict (iterable) ->新字典初始化:\nD = {}\n对于k， v在iterable中：\nD[k]=v\nDict (**kwargs) ->用name=value对初始化的新字典\n在关键字参数列表中。例如：dict（one=1, two=2）"
+  },
+  "6267e1351ec1cdcbd4dc88faacca57cf": {
+    "translation": "在左边填充一个带零的数字字符串，以填充给定宽度的字段。\n\n该字符串永远不会被截断。"
+  },
+  "64606017b0ed75a63e5e7c67fe48b8a5": {
+    "translation": "返回自我<值。"
+  },
+  "64dbd0a37cb56690d4fb4ec789d9c754": {
+    "translation": "测试集合中的每个元素是否都在other中。"
+  },
+  "67b117c7af935c9b36a643c495b02b42": {
+    "translation": "自我~"
+  },
+  "67f3f9c021161065e73173f6f9538bc6": {
+    "translation": "返回自我^ =值。"
+  },
+  "68b6c1c122b03ddfda48b337015cb060": {
+    "translation": "返回集合的浅拷贝。"
+  },
+  "698007bea8b687b1f41f1323a130ac87": {
+    "translation": "返回自< <值。"
+  },
+  "6a1c9d8f8afa156f02db4bc676124d0b": {
+    "translation": "用一个集合与另一个集合的对称差值更新一个集合。"
+  },
+  "6afa373e002a08fcd3f98ba4b1659905": {
+    "translation": "返回divmod（self, value）。"
+  },
+  "6bd4244a1a5eae8a69bfa00d8d84ebd8": {
+    "translation": "返回值"
+  },
+  "6e1318b3f5ee5452636f6f2e70412744": {
+    "translation": "实现迭代（自我）。"
+  },
+  "70b4afb40a7af3ff545c555ff331d442": {
+    "translation": "< <返回值自我。"
+  },
+  "7191722341830ac9b88918f37baa174a": {
+    "translation": "Merci"
+  },
+  "724dce5b98ce9e8fd4a41654a8be42fa": {
+    "translation": "检查对象是否为实例。"
+  },
+  "74c2a488e709f413cbfe2eb8013acd3d": {
+    "translation": "返回列表在内存中的大小，以字节为单位。"
+  },
+  "79e6aeef8b5d466e4eac7ca8beb5c27d": {
+    "translation": "如果字符串是字母数字字符串则返回True，否则返回False。\n\n如果字符串中的所有字符都是字母数字和\n字符串中至少有一个字符。"
+  },
+  "79fcaf5ea76bdadce3c239bb77f80e1d": {
+    "translation": "早上好！"
+  },
+  "7acf9ae678f75f9277d0e324b01dd9e7": {
+    "translation": "字符串(对象=‘’)-&gt；字符串\nStr (bytes_or_buffer[, encoding[, errors]]) ->\n\n从给定对象创建一个新的字符串对象。如果编码或\n如果指定了Errors，则该对象必须公开数据缓冲区\n它将使用给定的编码和错误处理程序进行解码。\n否则，返回对象的结果。__str__()（如果定义）\n或repr(对象)。\nEncoding默认为sys.getdefaultencoding（）。\nErrors默认为‘strict’。"
+  },
+  "7bc486d81d3b499a6adc959819362e37": {
+    "translation": "从这个集合中删除所有元素。"
+  },
+  "7c3c476c408c0ec299f7bd589e3cff9f": {
+    "translation": "此方法在类被子类化时调用。\n\n默认实现什么都不做。可能是\n重写以扩展子类。\n"
+  },
+  "7c4d351f82a8d9f30113b66c340712eb": {
+    "translation": "Python是一种出色的编程语言。"
+  },
+  "7c7b48b31d384d760d1121212a18bade": {
+    "translation": "如果字符串中的所有字符都是ASCII则返回True，否则返回False。\n\nASCII字符的码位范围是U 0000-U 007F。\n空字符串也是ASCII。"
+  },
+  "7cc8e6dd0292230c918dc89b4f3d69bb": {
+    "translation": "如果字符串是标题大小写字符串则返回True，否则返回False。\n\n在标题大小写字符串中，大写和标题大小写字符只能\n紧跟非大小写字符和小写字符，仅紧跟大小写字符。"
+  },
+  "7d160bcc2a4d655c4ac90729c0047e78": {
+    "translation": "使用给定的翻译表替换字符串中的每个字符。\n\n表格\n转换表，它必须是Unicode序数到\nUnicode序号、字符串或None。\n\n表必须通过__getitem__实现查找/索引，例如a\n字典或列表。如果此操作引发LookupError，则字符为\n毫发未损。映射到None的字符将被删除。"
+  },
+  "7de04e1bb8d30fdb67d3467ec8393c1c": {
+    "translation": "返回转换为大写的字符串副本。"
+  },
+  "7f0df67f3a46575a1d1530130543130a": {
+    "translation": "缓存演示"
+  },
+  "809eed0748728479ff73452639777b48": {
+    "translation": "如果字符串是空白字符串则返回True，否则返回False。\n\n如果字符串中的所有字符都是空白，则该字符串为空白\n至少是字符串中的一个字符。"
+  },
+  "81a77a6e9292a790029035c3dd3a5c7d": {
+    "translation": "Int ([x]) -> integer\nInt (x, base=10) ->整数\n\n将数字或字符串转换为整数，如果没有参数则返回0\n给出了。如果x是一个数字，返回x.__int__（）。对于浮点\n数字，这个截断到0。\n\n如果x不是一个数字或者给定了基数，那么x必须是一个字符串，\n类型中的整数字面值的bytearray实例\n鉴于基地。字面值可以在前面加上‘ ’或‘-’，并将其括起来\n空格。基数默认为10。有效的底数是0和2-36。\n基数0表示将字符串中的基数解释为整数字面值。\n（'0 '，基数=0）\n4"
+  },
+  "81d0cb6e5292eb0757e014e8e3fa59bf": {
+    "translation": "回归自我! =价值。"
+  },
+  "822a315d2b505ad30a83fd434406d839": {
+    "translation": "返回由给定字节数组表示的整数。\n\n字节\n保存要转换的字节数组。参数必须\n支持缓冲区协议或是可迭代生成字节的对象。\nBytes和Bytearray是支持\n缓冲区协议。\nbyteorder\n用于表示整数的字节顺序。如果字节顺序为“大” ，\n最重要的字节在字节数组的开头。如果\n字节顺序为“小” ，最主要的字节在字节的末尾\n字节数组。要请求主机系统的本机字节顺序，请使用\n`sys.byteorder'作为字节顺序值。默认值为使用“big”。\nsigned\n指示是否使用两个补数来表示整数。"
+  },
+  "82caa1bbd640be5b6bf1e4400b5ec185": {
+    "translation": "返回一对整数，其比率与原始浮点数完全相等。\n\n这个比率是最小的，分母是正的。提高\n无穷大的OverflowError和nan的ValueError。\n\n> > > (10.0) .as_integer_ratio ()\n(10, 1)\n> > > (0.0) .as_integer_ratio ()\n(0, 1)\n> > >(15年).as_integer_ratio ()\n(-1, 4)"
+  },
+  "8333c56d93107c76d4e66c35e3ab6c44": {
+    "translation": "返回值> >自我。"
+  },
+  "84833b9ea0ec5d498d80402155d9e2cf": {
+    "translation": "d .pop(k[,d]) -> v，删除指定的键并返回相应的值。\n\n如果没有找到键，则返回给定的默认值；否则,\n引发KeyError。"
+  },
+  "8577bf116aca2256cb175b1cab28a333": {
+    "translation": "积分的上限返回它自己。"
+  },
+  "8a9dcba83ab97f2208419f412f446672": {
+    "translation": "创建并返回一个新对象。准确签名请参见帮助（打字）。"
+  },
+  "8e49ee40302b34238d3ac214ddcc321f": {
+    "translation": "“S.format（*args, **kwargs）”。\n\n返回S的格式化版本，使用args和kwargs的替换。\n替换由大括号（‘{’和‘}’）标识。"
+  },
+  "90abef4466bdb1393fbc58bfa89cd911": {
+    "translation": "如果字符串是数字字符串则返回True，否则返回False。\n\n如果字符串中的所有字符都是数字，则该字符串为数字字符串\n至少是字符串中的一个字符。"
+  },
+  "9220652e3c1e7e96f9d2efaa2ac2825f": {
+    "translation": "返回值^自我。"
+  },
+  "92c6ac1925459171adf8fbd8d2bb5f9c": {
+    "translation": "Google表示，它们不再接受订单，不过不会对已经在使用Google Glass的业者断货。"
+  },
+  "966c1b6432ec0cace4a9ea6e678f5019": {
+    "translation": "返回自我|值。"
+  },
+  "97ac1dc9a5d7266ee35c6677f0d87e5e": {
+    "translation": "返回bool（key in self）。"
+  },
+  "9a8508292f2cf6909cb143f0b05156b4": {
+    "translation": "将天花板作为积分返回。"
+  },
+  "9a92d6e7d0507ac77f16aded34bae0c8": {
+    "translation": "自我"
+  },
+  "9c0021789271cac200c51de735ee63f2": {
+    "translation": "如果字符串是字母字符串则返回True，否则返回False。\n\n如果字符串中的所有字符都是字母，那么该字符串就是字母字符串\n至少是字符串中的一个字符。"
+  },
+  "9c97bce4217bd00d3c086ebc920c36f5": {
+    "translation": "返回getattr（self, name）。"
+  },
+  "9dbee69f26e7c4eefe3da3863427700d": {
+    "translation": "返回字符串中子字符串的列表，使用sep作为分隔字符串。\n\n9月\n用于分割字符串的分隔符。\n\n当设置为None（默认值）时，将对任何空白进行分割\n字符（包括\\n \\r \\t \\f和空格）并将被丢弃\n结果中的空字符串。\n最大拆分\n最大分割数。\n-1（默认值）表示没有限制。\n\n分割从字符串的末尾开始，一直到前面。"
+  },
+  "9f1a7ab9348f78452f6ed43074179721": {
+    "translation": "自我绝对值的二进制表示中1的个数。\n\n也被称为人口统计。\n\n> > >本(13)\n“0 b1101”\n> > > (13) .bit_count ()\n3"
+  },
+  "9fc3235b1b4794007de2f842b4b26e33": {
+    "translation": "内置函数、类型、异常和其他对象。\n\n该模块提供了对所有“内置”的直接访问。\nPython的标识符；例如，建筑物。len是\n内置函数len（）的全称。\n\n这个模块通常不会被大多数人显式访问\n，但在提供的模块中可能有用\n对象，其名称与内置值相同，但在\n这个名字的内置也是需要的。"
+  },
+  "a1cbd6d2287875d27c78a607478eec59": {
+    "translation": "将self作为函数调用。"
+  },
+  "a2025b6ccb3b5f5112a574f088bb8e67": {
+    "translation": "返回字符串的一个版本，其中每个单词都加了标题。\n\n更具体地说，单词以大写字母开头，其余全部大写\n上一篇：他将加入谷歌内部孵化器「Area 120」"
+  },
+  "a2fb1c1ea5deac419ecf5ac368f522e4": {
+    "translation": "range (stop) - > range对象\nrange (start, stop [, step]) - > range对象\n\n返回一个从开始（包括）生成一系列整数的对象\n按步骤停止（不含）。range (i, j)产生i, i +1, i +2,..., J-1。\nstart默认为0 ，省略stop ！ range (4)产生0、1、2、3。\n这些正是4个元素列表的有效索引。\n当给定步骤时，它指定增量（或减量）。"
+  },
+  "a3e8577ed6834f43e3ef190d7f209a32": {
+    "translation": "返回自我价值。"
+  },
+  "a419c624ba6c3ecbd9259063d0f5fb1c": {
+    "translation": "复数的实部"
+  },
+  "a41b8e3d8edf6b103875e56f00c79153": {
+    "translation": "复数的虚部"
+  },
+  "a4ff51b1fb09c88e3dc1d5caad6b02b7": {
+    "translation": "返回字符串的副本，去掉前导和尾部的空白。\n\n如果给出了chars而不是None，则删除chars中的字符。"
+  },
+  "a6c023f5b2ce569fc9efad7c663a9e9a": {
+    "translation": "如果字符串是有效的Python标识符则返回True，否则返回False。\n\n关键字。Iskeyword (s)测试字符串s是否为保留标识符；\n例如“def”或“class”。"
+  },
+  "a6e1f9eb34d5acdff895275fb3647e51": {
+    "translation": "如果可能，将字符串或数字转换为浮点数。"
+  },
+  "a7175a90eaac58b727466b209baa3760": {
+    "translation": "返回自我/值。"
+  },
+  "a8d0961bfcce5a96c0398cdb5f47f2e6": {
+    "translation": "返回一个副本，其中所有出现的子字符串old都被new替换。\n\n数\n要替换的最大出现次数。\n-1（默认值）表示替换所有的出现。\n\n如果给出了可选参数count，则只有第一次计数出现\n更换。"
+  },
+  "a91c4cda39575427040cd6c0c96d1315": {
+    "translation": "回归自我"
+  },
+  "aa5d5f442a897d32de5eb6c5a89ef462": {
+    "translation": "如果两个集合相交为空，则返回True。"
+  },
+  "ac18393d9ce4092ea884bd5a52bd1d26": {
+    "translation": "实现self =value。"
+  },
+  "ac7364bfb6e9581b587fe175ba531bc6": {
+    "translation": "返回表示整数的字节数组。\n\n长度\n要使用的字节长度对象。将引发OverflowError\n整数不能用给定的字节数表示。默认的\n长度是1。\n字节顺序\n用于表示整数的字节顺序。如果byteorder ‘大’，\n最高位字节位于字节数组的开头。如果\n字节序为‘little’，最重要的字节位于数组的末尾\n字节数组。要请求主机系统的本机字节顺序，请使用\n的系统。Byteorder '作为字节顺序值。默认是使用‘big’。\n签署\n确定是否使用2的补码来表示整数。\n如果signed为False并给出一个负整数，则会产生OverflowError\n是提高。"
+  },
+  "acad572754bf6d045904bc5a11011946": {
+    "translation": "返回值|自我。"
+  },
+  "ad9fc448a6538b48b2cf757742664059": {
+    "translation": "返回自我> >的值。"
+  },
+  "ae2fb3c1f1292d1dd918333a1766e25c": {
+    "translation": "返回value出现的次数。"
+  },
+  "b2146416f5a8e54b0ae50c6b0ffd4075": {
+    "translation": "内置不可变序列。\n\n如果没有给出参数，构造函数返回一个空元组。\n如果指定了iterable，则从iterable的项初始化元组。\n\n如果参数是一个元组，返回值是同一个对象。"
+  },
+  "b33dd8a3669244e930f01cd46bed0240": {
+    "translation": "回归自我"
+  },
+  "b4b38945faede8314820b5f66bb58126": {
+    "translation": "D.keys() ->一个类似set的对象，提供D的键的视图"
+  },
+  "b4c25206726280ebb6439fb9d5432aeb": {
+    "translation": "如果self适合用作列表的索引，则返回转换为整数的self。"
+  },
+  "b95bc9823efbf3cc6dbdd564c1de8720": {
+    "translation": "如果字符串是大写字符串则返回True，否则返回False。\n\n如果字符串中所有的大小写字符都是大写的，则该字符串是大写的\n字符串中至少有一个大小写字符。"
+  },
+  "b9b32ef5b1d51be2f38c81d7559c847f": {
+    "translation": "返回str(自我)。"
+  },
+  "b9b47bef85cb50e1c9723503a5545206": {
+    "translation": "这是一段中文文本，用于测试语言相同判断功能。"
+  },
+  "bb8c60f99a872dcef1aa42f165b3c33c": {
+    "translation": "返回一个副本，其中所有制表符都使用空格展开。\n\n如果没有给出tabsize，则假设tabsize为8个字符。"
+  },
+  "bc2e168831e3343f0fe1bb3afa4086c7": {
+    "translation": "返回repr(自我)。"
+  },
+  "bd15b97890e7d0e657ff1f29c15bc98d": {
+    "translation": "类层次结构的基类。\n\n当被调用时，它不接受任何参数并返回一个新的无特征值\n没有实例属性且不能给定任何实例属性的实例。\n"
+  },
+  "bd71f5ba486565aaa7863336fbf3d622": {
+    "translation": "int(自我)"
+  },
+  "bfa7a3aeaad60476be5e2dcc7728086a": {
+    "translation": "返回长度为width的右对齐字符串。\n\n填充使用指定的填充字符（默认为空格）完成。"
+  },
+  "c0b870ce04205166851fda4f61252464": {
+    "translation": "S.index(sub[, start[, end]]\n\n返回S中找到子字符串sub的最低索引，\n这样sub就包含在S[start:end]中。可选\n参数start和end被解释为片表示法。\n\n当未找到子字符串时引发ValueError。"
+  },
+  "c3966fe995a11b13cfdb52dc60090ed2": {
+    "translation": "返回内存大小，以字节为单位。"
+  },
+  "c4e7c694ba57f2cb85391b44b946d690": {
+    "translation": "如果key不在字典中，则插入值为default的key。\n\n如果key在字典中，则返回key的值，否则为默认值。"
+  },
+  "c51aba3fbed91a812d57ab2920eafdd1": {
+    "translation": "使用为编码注册的编解码器对字符串进行编码。\n\n编码\n用于对字符串进行编码的编码方式。\n错误\n用于编码错误的错误处理方案。\n默认值为‘strict’，这意味着编码错误会引发\nUnicodeEncodeError。其他可能的值有‘ignore’， ‘replace’和\n‘xmlcharrefreplace’以及注册的任何其他名称\n编解码器。register_error可以处理UnicodeEncodeErrors。"
+  },
+  "c564ced3b034b568aa125880e5c09a99": {
+    "translation": "实现setattr（self, name, value）。"
+  },
+  "c6d72b0864c3fa0b9a20418330b21b03": {
+    "translation": "你可能不想用这个函数。\n\ntypestr\n必须是‘double’或‘float’。\n\n它主要用于Python的测试套件。\n\n此函数返回‘unknown’， ‘IEEE，大端’或'IEEE，\n‘ Little-endian ’最能描述浮点数的格式\n由typestr命名的C类型。"
+  },
+  "ccd5bb284debd9a480568a88aa4e6788": {
+    "translation": "返回自我^值。"
+  },
+  "cceb99ca2c98d5375206d13951bb1eae": {
+    "translation": "截断一个整型返回它自己。"
+  },
+  "cdb188018bda8d2ccc430f0e87dcd7ed": {
+    "translation": "返回自我=值。"
+  },
+  "cdf69217a251b635b4f0fc6a853af92a": {
+    "translation": "D.update([E,]**F) ->无。从dict/iterable E和F中更新D。\n如果E存在并且有a。keys（）方法，然后执行：for k in E: D[k] = E[k]\n如果E存在并且缺少a。keys（）方法，然后执行：for k， v in E: D[k] = v\n在这两种情况下，后面都是：对于F中的k: D[k] = F[k]"
+  },
+  "cdf99110b3946161ff759a26494721c7": {
+    "translation": "返回列表上的反向迭代器。"
+  },
+  "d1195f31d183328a446a54a195b437c0": {
+    "translation": "返回字典键的反向迭代器。"
+  },
+  "d1827d3ec1708de8a9f3fa81e73c3593": {
+    "translation": "追求自我。"
+  },
+  "d1dff0d9303789eacbca8700030fd1bb": {
+    "translation": "用集合本身和其它集合的并集更新集合。"
+  },
+  "d248f8660a69000d444311e7afcd5b45": {
+    "translation": "返回自我< =值。"
+  },
+  "d24bac9430c734f7773078e2af160b97": {
+    "translation": "返回一个str，如果给定的后缀字符串存在，则删除该字符串。\n\n如果字符串以后缀string结尾并且该后缀不为空，\n返回字符串[:len(后缀)]。否则，返回原件的副本\n字符串。"
+  },
+  "d268b21581d55dfb320b16bd1c64cf64": {
+    "translation": "泡菜的帮手。"
+  },
+  "d3783f78ecf67ea21bb90c0d84516f3e": {
+    "translation": "根据format_spec转换为字符串。"
+  },
+  "d45a14e1cfb9f54816bb1ac0702aa9ec": {
+    "translation": "This is an English text for testing language detection."
+  },
+  "d4c968b10daa47913988f0f060b91ef1": {
+    "translation": "向集合中添加一个元素。\n\n如果该元素已经存在，则不会产生任何影响。"
+  },
+  "d5069961de2bb65fc354ca2602c18934": {
+    "translation": "返回True。存在鸭类型与float.is_integer的兼容性。"
+  },
+  "d692c51e58e88ec8203e07110709d6c0": {
+    "translation": "返回值*自我。"
+  },
+  "d88d3bdf5fd333fd445c8134285cd2d6": {
+    "translation": "ありがとうございました"
+  },
+  "d963cf241064010ef3883657dd0444fc": {
+    "translation": "默认对象格式化程序。\n\n如果format_spec为空，则返回str（self）。否则引发TypeError。"
+  },
+  "d97fd2e84b8a4f4494fcf4669d8e8183": {
+    "translation": "返回pow（value, self, mod）。"
+  },
+  "d9aa1786239ed31f44f39cbfa81ea06e": {
+    "translation": "将对象追加到列表的末尾。"
+  },
+  "db47ac2182159b3564cd18b66f43d3be": {
+    "translation": "测试other中的每个元素是否都在集合中。"
+  },
+  "dd7beb54d8a512c22966d9f34bb8c66d": {
+    "translation": "用一个集合与另一个集合的交点更新一个集合。"
+  },
+  "e0afb451ee6c0ab7be333eb494fa6de0": {
+    "translation": "返回值的第一个索引。\n\n如果值不存在则引发ValueError。"
+  },
+  "e2603830a5eec40f0346fbf8b4ca2502": {
+    "translation": "S.startswith(prefix[, start[, end]]) -> bool\n\n如果S以指定的前缀开始返回True，否则返回False。\n可选开始，测试S从该位置开始。\n带有可选的end，在该位置停止比较S。\n前缀也可以是一个元组的字符串来尝试。"
+  },
+  "e28f2498ffc15ee60ce7f06a1c298cd5": {
+    "translation": "返回值/自我。"
+  },
+  "e2d0889fce158b34ba65e4f6f970ebe5": {
+    "translation": "S.rfind(sub[, start[, end]]) -> int\n\n返回S中找到子字符串sub的最高索引，\n这样sub就包含在S[start:end]中。可选\n参数start和end被解释为片表示法。\n\n失败时返回-1。"
+  },
+  "e3817cdd51815b0e5351ed833f99ff54": {
+    "translation": "返回self，任何浮点数的共轭复数。"
+  },
+  "e381b071ce74287c2d037d669230607b": {
+    "translation": "将值打印到流或sys。默认为标准输出。\n\n9月\n值之间插入的字符串，默认为空格。\n结束\n附加在最后一个值之后的字符串，默认为换行符。\n文件\n类文件对象（流）；默认为当前的sys.stdout。\n冲洗\n是否强制冲洗流。"
+  },
+  "e3863c15f81457203f2dd3d0ecf6df67": {
+    "translation": "返回自我%值。"
+  },
+  "e38b93ed29e22bd615bc89c68822f4a4": {
+    "translation": "从集合中移除一个成员元素。\n\n与设置。Remove（）时，discard（）方法不会引发异常\n当集合中缺少某个元素时发生异常。"
+  },
+  "e634fb7c683d2e6a2019ed227a54e723": {
+    "translation": "返回类型的方法解析顺序。"
+  },
+  "e68dc0df8ac0bb71b70c81dca3b40866": {
+    "translation": "D.__sizeof__() -> D在内存中的大小，以字节为单位"
+  },
+  "e84eec65c332c33d060cf0ea226c639a": {
+    "translation": "自我* = value总厂。"
+  },
+  "e88335ab4ea83b98e566c141d7221e8e": {
+    "translation": "你好,世界!\n这是一个测试。"
+  },
+  "e947a365ae58cc16d30bfd244c2812f0": {
+    "translation": "返回长度为width的左对齐字符串。\n\n填充使用指定的填充字符（默认为空格）完成。"
+  },
+  "eaf26ed061795358b14c95d273bbeca4": {
+    "translation": "返回字符串中的行列表，在行边界处中断。\n\n换行符不包括在结果列表中，除非给出了keepends和\n真实的。"
+  },
+  "eb792c8ae7f9e55eee94b9e094ea56c2": {
+    "translation": "用二进制表示自我所需的位数。\n\n> > >本(37)\n“0 b100101”\n> > > (37) .bit_length ()\n6"
+  },
+  "ec58b2c0a7cb5783e38e965e99cc97bf": {
+    "translation": "对象在内存中的大小，以字节为单位。"
+  },
+  "ec71ceaa47f7503768864dfc770e702b": {
+    "translation": "返回集合的并集作为一个新集合。\n\n（即任意一个集合中的所有元素。）"
+  },
+  "ed299b1d7257affdcd3613360fccfd2d": {
+    "translation": "S.find(sub[, start[, end]]) -> int\n\n返回S中找到子字符串sub的最低索引，\n这样sub就包含在S[start:end]中。可选\n参数start和end被解释为片表示法。\n\n失败时返回-1。"
+  },
+  "ed913dda33cf568360ca54d0a26fca1a": {
+    "translation": "返回自我> =值。"
+  },
+  "edb6718029fff0759826e862b6a7f283": {
+    "translation": "根据format_spec格式化浮点数。"
+  },
+  "ef898cfbebcb83799d887d004345ecf6": {
+    "translation": "返回酸洗的状态信息。"
+  },
+  "f1c467f3cdf7120e42a366d150548c14": {
+    "translation": "参见PEP 585"
+  },
+  "f22fd7926636b4f91530375766d539dd": {
+    "translation": "以最低项表示的有理数的分子"
+  },
+  "f28d3ddb9f46ebb0bfe88c662ae54d6a": {
+    "translation": "将地板作为积分返回。"
+  },
+  "f2bf2acefbd65a56366372714a245fe9": {
+    "translation": "S.endswith（后缀[，start[, end]]） -> bool\n\n如果S以指定后缀结尾返回True，否则返回False。\n可选开始，测试S从该位置开始。\n带有可选的end，在该位置停止比较S。\n后缀也可以是一个元组的字符串来尝试。"
+  },
+  "f3579b71bda5906e52e4fb7268e27769": {
+    "translation": "删除value的第一次出现。\n\n如果值不存在则引发ValueError。"
+  },
+  "f3cba0850a0e7c1c3eec768d474a7c5a": {
+    "translation": "抽象类可以覆盖它来定制issubclass（）。\n\n这在早期由abc.ABCMeta.__subclasscheck__（）调用。\n它应该返回True， False或notimented。如果它返回\nnotimplented，使用正常算法。否则,它\n覆盖常规算法（并缓存结果）。\n"
+  },
+  "f48d3207ea6754228bd5fed1e311a40b": {
+    "translation": "返回自我= =值。"
+  },
+  "f4efbb8c9a6828aa97fd95b647f49bc4": {
+    "translation": "返回哈希(自我)。"
+  },
+  "f63a542b0fb8ceed27334ad638e45d69": {
+    "translation": "将大写字符转换为小写字符，小写字符转换为大写字符。"
+  },
+  "fa7b90a4d28776ae1bc89c1f399dc7eb": {
+    "translation": "返回self ，任何int的复共轭。"
+  },
+  "fba036d4132744484f20b777b25832b4": {
+    "translation": "实现delattr（self, name）。"
+  },
+  "fcf1cccec7416d324867b809ef9468e2": {
+    "translation": "如果字符串是小写字符串则返回True，否则返回False。\n\n如果字符串中所有的大小写字符都是小写和\n字符串中至少有一个大小写字符。"
+  },
+  "fdbc3f9b27880dc7ad6616677abd88f6": {
+    "translation": "返回自我(指数)。"
+  },
+  "fdc71470f09bf86988cc38c49292e1e9": {
+    "translation": "通过从可迭代对象中添加元素来扩展列表。"
+  },
+  "ff5857ec9ce44e4df1270115729ff5b2": {
+    "translation": "返回自我>值。"
+  },
+  "fff1bbc280bf6ecfb76aee1ca3a3b16d": {
+    "translation": "返回值self。"
+  },
+  "dbb6b21e1774c698d6af656b55936ddf": {
+    "translation": "装饰器在Python中功能强大。"
+  }
+}
